@@ -35,15 +35,19 @@
 
   <p>Next, I am going to add the following two numbers and display the result, all with JavaScript<p/>
   
-  <p>First number:<span id = "firstNum"> 2</span><br></p>
+  <p>First number: <span id = "firstNum">3</span><br></p>
     
-  <p>Second number:<span id = "secondNum"> 7</span></p>
+  <p>Second number: <span id = "secondNum">11</span></p>
     
   <p>Therefore, the sum of the two of those numbers is: <span id= "answer1">(placeholder for the answer)</span></p>
     
   <input type = "button" id = "sumButton" onclick = "displaySum()" value = "Click to add!">
   
-  <p>In the same fashion, the product of the two of those numbers is: <span id= "answer2">(placeholder for the answer)</span></p>
+  <p>In the same fashion, the difference of the two of those numbers is: <span id= "answer2">(placeholder for the answer)</span></p>
+
+  <input type = "button" id = "differenceButton" onclick = "displayProduct()" value = "Click to multiply!">
+
+  <p>Last but not the least, the product of the two of those numbers is: <span id= "answer3">(placeholder for the answer)</span></p>
 
   <input type = "button" id = "productButton" onclick = "displayProduct()" value = "Click to multiply!">
 
@@ -53,7 +57,7 @@
 </body>
 
 <script>
-  function displaySum() {
+  function displaySum(){
     let firstNum = Number(document.getElementById("firstNum").innerHTML)
     let secondNum = Number(document.getElementById("secondNum").innerHTML)
     let total = firstNum + secondNum;
@@ -65,12 +69,24 @@
 </script>
 
 <script>
-  function displayProduct() {
+  function displayDifference(){
+    let firstNum = Number(document.getElementById("firstNum").innerHTML)
+    let secondNum = Number(document.getElementById("secondNum").innerHTML)
+    let total = firstNum - secondNum;
+    
+    document.getElementById("answer2").innerHTML = "${firstNum} + ${secondNum}, equals to ${total}";
+  }
+  
+  document.getElementById("differenceButton").addEventListener("click", displayDifference);
+</script>
+
+<script>
+  function displayProduct(){
     let firstNum = Number(document.getElementById("firstNum").innerHTML)
     let secondNum = Number(document.getElementById("secondNum").innerHTML)
     let total = firstNum * secondNum;
     
-    document.getElementById("answer2").innerHTML = "${firstNum} * ${secondNum}, equals to ${total}";
+    document.getElementById("answer3").innerHTML = "${firstNum} * ${secondNum}, equals to ${total}";
   }
   
   document.getElementById("productButton").addEventListener("click", displayProduct);
