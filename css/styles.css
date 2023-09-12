@@ -41,10 +41,11 @@ em{
 
 .container{
   position: relative;
-  max-width: 800px !important;
+  max-width: 1000px !important;
   margin-bottom: 0px;
   display: flex;
-  align-items: start;
+  align-items: center !important;
+  vertical-align: middle !important;
   height: 98vh;
 }
 
