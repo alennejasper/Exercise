@@ -41,13 +41,13 @@ em{
 
 .container{
   position: relative;
-  width: 90% !important;
+  width: 1230px !important;
   margin-bottom: 0px;
   display: flex;
   align-items: start !important;
   vertical-align: middle !important;
   justified-content: center !important;
-  height: 98vh;
+  height: 100%;
 }
 
 #column{
