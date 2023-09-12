@@ -44,8 +44,9 @@ em{
   max-width: 1000px !important;
   margin-bottom: 0px;
   display: flex;
-  align-items: center !important;
+  align-items: start !important;
   vertical-align: middle !important;
+  text-align: center !important;
   height: 98vh;
 }
 
