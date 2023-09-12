@@ -46,7 +46,7 @@ em{
   display: flex;
   align-items: start !important;
   vertical-align: middle !important;
-  text-align: center !important;
+  justified-content: center !important;
   height: 98vh;
 }
 
