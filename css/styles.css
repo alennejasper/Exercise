@@ -41,8 +41,7 @@ em{
 
 .container{
   position: relative;
-  max-width: 500px !important;
-  width: 100%;
+  max-width: 800px !important;
   margin-bottom: 0px;
   display: flex;
   align-items: start;
