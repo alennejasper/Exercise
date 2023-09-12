@@ -27,7 +27,7 @@ em{
 
 .container{
   position: relative;
-  max-width: 1000px;
+  max-width: 500px !important;
   width: 100%;
   margin: 30px auto;
   margin-bottom: 0px;
@@ -54,7 +54,7 @@ em{
 }
 
 .content{
-    max-width: 385px;
+    max-width: 385px !important;
     width: 100%;
     padding-left: 7.5px;
     padding-right: 22.5px;
