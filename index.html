@@ -47,11 +47,11 @@
             
           <input type = "button" id = "sumButton" onclick = "displaySum()" value = "Click to add!">
           
-          <p>In the same fashion, the difference of the two of those numbers is: <span id = "answer2">(placeholder for the answer)</span></p>
+          <p>In the same fashion, the difference between the two of those numbers is: <span id = "answer2">(placeholder for the answer)</span></p>
         
           <input type = "button" id = "differenceButton" onclick = "displayDifference()" value = "Click to subtract!">
         
-          <p>Last but not the least, the product of the two of those numbers is: <span id = "answer3">(placeholder for the answer)</span></p>
+          <p>Last but not least, the product of the two of those numbers is: <span id = "answer3">(placeholder for the answer)</span></p>
         
           <input type = "button" id = "productButton" onclick = "displayProduct()" value = "Click to multiply!">
         
@@ -65,15 +65,15 @@
 </body>
 
 <script>
-  function displaySum(){
-    let firstNum = Number(document.getElementById("firstNum").innerHTML)
-    let secondNum = Number(document.getElementById("secondNum").innerHTML)
+  function displaySum() {
+    let firstNum = Number(document.getElementById('firstNum').innerHTML)
+    let secondNum = Number(document.getElementById('secondNum').innerHTML)
+  
     let total = firstNum + secondNum;
-    
-    document.getElementById("answer1").innerHTML = '${firstNum} + ${secondNum}, equals to ${total}';
+    document.getElementById("answer1").innerHTML = `${firstNum} + ${secondNum}, equals to ${total}`;
   }
   
-  document.getElementById("sumButton").addEventListener("click", displaySum);
+  document.getElementById('sumButton').addEventListener("click", displaySum);
 </script>
 
 <script>
