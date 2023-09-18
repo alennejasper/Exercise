@@ -73,7 +73,6 @@ em{
   padding-right: 22.5px;
   vertical-align: top;
   display: inline-block !important;
-  background-color: #FFE5B4;
 }
 
 .content-body{
@@ -82,6 +81,7 @@ em{
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  background-color: #FFE5B4;
 }
 
 #refreshButton{
