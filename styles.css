@@ -86,6 +86,7 @@ em{
   flex: 1 1 auto;
   background-color: #FFE5B4;
   color: #960018;
+  width: 75%;
 }
 
 #refreshButton{
