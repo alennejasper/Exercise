@@ -7,7 +7,7 @@
 }
 
 h1{
-  background-color: #FF0000;
+  background-color: #FF6961;
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-  background-color: #0000FF;
+  background-color: #78A2CC;
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -23,7 +23,7 @@ h2{
 }
 
 h3{
-  background-color: #00FF00;
+  background-color: #A7D489;
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
